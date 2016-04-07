@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "gCal Links",
+  "version": "1.0",
+  "description": "Add links to google calendar",
+    "browser_action": {
+        "default_icon": {                        
+                "48": "calendar.png",        
+                "128": "calendar128.png"
+        },
+    "default_title": "Quick Add to Google Calendar",
+    "default_popup": "popup.html"
+	},
+  "icons": { "48": "calendar.PNG" },
+  "permissions": ["tabs", "activeTab"]
+}
