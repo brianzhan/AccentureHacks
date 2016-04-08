@@ -12,5 +12,8 @@
     "default_popup": "popup.html"
 	},
   "icons": { "48": "calendar.PNG" },
-  "permissions": ["tabs", "activeTab"]
+  "permissions": ["tabs", "activeTab"],
+  //"content_security_policy": "script-src 'self' http://maxcdn.bootstrapcdn.com/; object-src 'self'"
+  "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'"
+
 }
